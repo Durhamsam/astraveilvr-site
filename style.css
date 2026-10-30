@@ -33,3 +33,6 @@ h1,h2,h3{line-height:1.2}h2{font-size:clamp(26px,3.5vw,36px);margin:0 0 14px}
 .muted{color:var(--muted)}
 footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:14px}
 footer .wrap{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between}footer a{color:var(--muted)}
+.btn.discord{background:#5865F2;border-color:#5865F2;color:#fff}.btn.discord:hover{background:#7983f5;color:#fff}
+nav a.discord-nav{color:#fff;background:#5865F2;padding:6px 12px;border-radius:8px}nav a.discord-nav:hover{background:#7983f5}
+@media(max-width:600px){.doc table{font-size:14px;word-break:break-word}.doc th,.doc td{padding:7px}}
